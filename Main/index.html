@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container-fluid mt-2 px-8">
+        <h1 class="text-slate-500 font-semibold">Ecommerce / Pages</h1>
+        <h1 class="text-3xl font-bold mt-3">Product Pages</h1>
+        <p class="mt-10">With related products</p>
+        <div class="shadow shadow-slate-400 mt-4 rounded-lg px-8 py-3 basic-tee">
+            <div class=" py-3 border-grey-800 flex align-center justify-between">
+                <ul class="flex align-center ">
+                    <li class="mr-10">Women</li>
+                    <li class="mr-10">Men</li>
+                    <li class="mr-10">Company</li>
+                    <li class="mr-10">Stores</li>
+                </ul>
+                <div class="h-8 flex m-0 p-0 align-center">
+                    <svg viewBox="0 0 47 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#4f46e5" d="M23.5 6.5C17.5 6.5 13.75 9.5 12.25 15.5C14.5 12.5 17.125 11.375 20.125 12.125C21.8367 12.5529 23.0601 13.7947 24.4142 15.1692C26.6202 17.4084 29.1734 20 34.75 20C40.75 20 44.5 17 46 11C43.75 14 41.125 15.125 38.125 14.375C36.4133 13.9471 35.1899 12.7053 33.8357 11.3308C31.6297 9.09158 29.0766 6.5 23.5 6.5ZM12.25 20C6.25 20 2.5 23 1 29C3.25 26 5.875 24.875 8.875 25.625C10.5867 26.0529 11.8101 27.2947 13.1642 28.6693C15.3702 30.9084 17.9234 33.5 23.5 33.5C29.5 33.5 33.25 30.5 34.75 24.5C32.5 27.5 29.875 28.625 26.875 27.875C25.1633 27.4471 23.9399 26.2053 22.5858 24.8307C20.3798 22.5916 17.8266 20 12.25 20Z"/>
+                        <defs>
+                            <linearGradient id="%%GRADIENT_ID%%" x1="33.999" x2="1" y1="16.181" y2="16.181"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="%%GRADIENT_TO%%" />
+                                <stop offset="1" stop-color="%%GRADIENT_FROM%%" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <ul class="flex align-center">
+                    <li class="mr-10 flex align-center">
+                        <span class="mr-3">
+                            <svg class="mt-1" width="20" height="15" viewBox="0 0 20 15" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 0h10v15H5V0z" fill="#F7FCFF"/>
+                                <path d="M8.956 5.252L9.983 3.75 10 12.5h-.428l.263-2.165s-2.883.529-2.644.262c.238-.267.375-.757.375-.757L5 8.092s.405-.005.734-.205c.33-.2-.33-1.385-.33-1.385l1.296.192.49-.544.978 1.045h.44l-.44-2.393.788.45zM10 12.5V3.75l1.044 1.502.788-.45-.44 2.393h.44l.977-1.045.49.544 1.296-.192s-.658 1.185-.33 1.385c.33.2.735.205.735.205L12.434 9.84s.137.49.376.757c.238.267-2.645-.262-2.645-.262l.263 2.165H10zM15 0h5v15h-5V0zM0 0h5v15H0V0z" fill="#E31D1C"/>
+                            </svg>  
+                        </span>
+                        <span class="font-semibold">
+                            CAD                        
+                        </span>
+                    </li>
+                    <li class="mr-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-slate-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                        </svg>                          
+                    </li>
+                    <li class="mr-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-slate-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                        </svg>
+                    </li>
+                    <li class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-slate-500 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                        </svg>     
+                        0                     
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div class="mt-8 grid grid-cols-12 gap-8">
+                <div class="rounded-lg md:col-span-7 sm:col-span-12 overflow-hidden">
+                    <img src="../assets/images/product-page-01-featured-product-shot.jpg" alt="">
+                </div>
+                <div class="md:col-span-5 sm:col-span-12">
+                    <div class="text-2xl flex justify-between">
+                        <h1 class="font-semibold">Basic Tee</h1>
+                        <h1 class="font-semibold">$35</h1>
+                    </div>
+                    <div class="container flex mt-3 justify-start">
+                        <h1 class="m-0 p-0">3.9</h1>
+                        <div class="container flex align-center inline m-0 p-0 pt-1 pl-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#e5e7eb" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>                                
+                        </div>
+                        <div class="container text-indigo-600 font-semibold text-sm">
+                            See all 512 reviews
+                        </div>
+                    </div>
+                    <div class="container mt-5">
+                        <h1 class="text-sm font-semibold mb-2">Color</h1>
+                        <div class="flex">
+                                <div class="h-8 w-8 bg-black rounded-3xl outline outline-offset-2 outline-2 mr-3"></div>
+                                <div class="h-8 w-8 bg-gray-500 rounded-3xl"></div>
+                        </div>
+                    </div>
+                    <div class="container mt-8">
+                        <div class="container flex justify-between text-sm">
+                            <h1 class="text-black font-semibold">Size</h1>
+                            <h1 class="text-indigo-600 font-semibold">See sizing chart</h1>
+                        </div>
+                        <div class="grid grid-cols-6 gap-2 mt-2">
+                            <span class="border border-grey-800 py-3 font-semibold text-center rounded-lg">XXS</span>
+                            <span class="border border-grey-800 py-3 font-semibold text-center rounded-lg">XS</span>
+                            <span class="border border-grey-800 py-3 font-semibold text-center rounded-lg bg-indigo-600 text-white">S</span>
+                            <span class="border border-grey-800 py-3 font-semibold text-center rounded-lg">M</span>
+                            <span class="border border-grey-800 py-3 font-semibold text-center rounded-lg">L</span>
+                            <span class="py-3 font-semibold text-center text-gray-300 rounded-lg cursor-not-allowed">XL</span>
+                        </div>
+                        <div class="container text-center mt-8 py-3 bg-indigo-600 text-white rounded-md">
+                            Add to cart
+                        </div>
+                        <div class="container mt-9">
+                            <h1 class="text-black font-semibold">Description</h1>
+                            <div class="container mt-3 text-gray-500 pb-7 border-grey-800">
+                                <p>
+                                    The Basic tee is an honest new take on a classic. The tee uses super soft, pre-shrunk cotton for true comfort and a dependable fit. They are hand cut and sewn locally, with a special dye technique that gives each tee it's own look.
+                                </p>   
+                                <br>
+                                <p class="mt-1">
+                                    Looking to stock your closet? The Basic tee also comes in a 3-pack or 5-pack at a bundle discount.
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="container mt-7">
+                                <h1 class="font-semibold">Fabric & care</h1>
+                            <ul class="ps-10 text-gray-400 mt-5">
+                                <li class="list list-disc">Only the best materials</li>
+                                <li class="list list-disc">Ethically and locally made</li>
+                                <li class="list list-disc">Pre-washed and pre-shrunk</li>
+                                <li class="list list-disc">Machine wash cold with similar colors</li>
+                            </ul>
+                            </div>
+                            <div class="container mt-8 grid grid-cols-2 gap-8">
+                                <div class="container border border-grey-800 rounded-lg px-6 py-6 text-center ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mx-auto text-slate-500">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.115 5.19l.319 1.913A6 6 0 008.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 002.288-4.042 1.087 1.087 0 00-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 01-.98-.314l-.295-.295a1.125 1.125 0 010-1.591l.13-.132a1.125 1.125 0 011.3-.21l.603.302a.809.809 0 001.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 001.528-1.732l.146-.292M6.115 5.19A9 9 0 1017.18 4.64M6.115 5.19A8.965 8.965 0 0112 3c1.929 0 3.716.607 5.18 1.64" />
+                                    </svg>
+                                    <h1 class="font-semibold">International delivery</h1>
+                                    <h1 class="text-gray-500">Get your order in 2 years</h1>
+                                </div>
+                                <div class="container border border-grey-800 rounded-lg px-6 py-6 text-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mx-auto text-slate-500">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                    <h1 class="font-semibold">Loyalty rewards</h1>
+                                    <p class="text-gray-500">Don't look at other tees</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-auto mt-8 grid grid-cols-12 gap-8 sm:hidden">
+                <div class="m-auto grid grid-cols-2 col-span-7 gap-8">
+                    <div class="overflow-hidden rounded-lg">
+                        <img src="../assets/images/product-page-01-product-shot-01.jpg" alt="">
+                    </div>
+                    <div class="overflow-hidden rounded-lg">
+                        <img src="../assets/images/product-page-01-product-shot-02.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-20 pt-10">
+                <h1 class="font-semibold text-xl mb-6">Recent Reviews</h1>
+                <hr>
+                <div class="grid grid-cols-12">
+                    <div class="col-span-3 my-10">
+                        <h1 class="font-semibold">Rasiko M</h1>
+                        <h1 class="text-slate-500">May 16, 2021</h1>
+                    </div>
+                    <div class="col-span-3 my-10 flex">
+                        <div class="flex align-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>                                
+                        </div>
+                        <h1 class="ml-3 p-0">5</h1>
+                    </div>
+                    <div class="col-span-6 my-10">
+                        <h1 class="font-semibold">
+                            Can't say enough good things
+                        </h1>
+                        <p class="text-slate-500 mt-2">
+                            I was really pleased with the overall shopping experience. My order even included a little personal, handwritten note, which delighted me!
+                            <br>
+                            <br>
+                            The product quality is amazing, it looks and feel even better than I had anticipated. Brilliant stuff! I would gladly recommend this store to my friends. And, now that I think of it... I actually have, many times!
+                        </p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-12">
+                    <div class="col-span-3 my-10">
+                        <h1 class="font-semibold">Jackie H</h1>
+                        <h1 class="text-slate-500">April 6, 2021</h1>
+                    </div>
+                    <div class="col-span-3 my-10 flex">
+                        <div class="flex align-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>                                
+                        </div>
+                        <h1 class="ml-3 p-0">5</h1>
+                    </div>
+                    <div class="col-span-6 my-10">
+                        <h1 class="font-semibold">
+                            Very comfy and looks the part
+                        </h1>
+                        <p class="text-slate-500 mt-2">
+                            After a quick chat with customer support, I had a good feeling about this shirt and ordered three of them.
+                                <br><br>
+                            Less than 48 hours later, my delivery arrived. I haven't worn anything else since that day! These shirts are so comfortable, yet look classy enough that I can wear them at work or even some formal events. Winning!
+                        </p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-12">
+                    <div class="col-span-3 my-10">
+                        <h1 class="font-semibold">Laura G</h1>
+                        <h1 class="text-slate-500">February 24, 2021</h1>
+                    </div>
+                    <div class="col-span-3 my-10 flex">
+                        <div class="flex align-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#e5e7eb" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                            </svg>                                
+                        </div>
+                        <h1 class="ml-3 p-0">4</h1>
+                    </div>
+                    <div class="col-span-6 my-10">
+                        <h1 class="font-semibold">
+                            The last shirts I may ever need
+                        </h1>
+                        <p class="text-slate-500 mt-2">
+                            I bought two of those comfy cotton shirts, and let me tell you: they're amazing! I have been wearing them almost every day. Even after a dozen of washes, that still looks and feel good as new. Will definitely order a few more... If I ever need to! </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="container mt-20 py-5">
+                <h1 class="font-semibold text-xl">Customers also purchased</h1>
+                <div class="grid grid-cols-4 gap-8 mt-8">
+                    <div class="container">
+                        <img src="../assets/images/product-page-01-related-product-02.jpg" alt="">
+                        <div class="container flex justify-between">
+                            <div>
+                                <h1>Basic Tee</h1>
+                                <h1 class="text-slate-500">Aspen White</h1>
+                            </div>
+                            <div class="font-semibold">
+                                $35
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img src="../assets/images/product-page-01-related-product-03.jpg" alt="">
+                        <div class="container flex justify-between">
+                            <div>
+                                <h1>Basic Tee</h1>
+                                <h1 class="text-slate-500">Charcoal</h1>
+                            </div>
+                            <div class="font-semibold">
+                                $35
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img src="../assets/images/product-page-01-related-product-04.jpg" alt="">
+                        <div class="container flex justify-between">
+                            <div>
+                                <h1>Artwork Tee</h1>
+                                <h1 class="text-slate-500">Iso Dots</h1>
+                            </div>
+                            <div class="font-semibold">
+                                $35
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img src="../assets/images/product-page-01-related-product-01.jpg" alt="">
+                        <div class="container flex justify-between">
+                            <div>
+                                <h1>Basic Tee</h1>
+                                <h1 class="text-slate-500">Black</h1>
+                            </div>
+                            <div class="font-semibold">
+                                $35
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-20">
+            <div class="grid grid-cols-12">
+                <div class="h-10 w-10">
+                    <svg viewBox="0 0 47 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#4f46e5" d="M23.5 6.5C17.5 6.5 13.75 9.5 12.25 15.5C14.5 12.5 17.125 11.375 20.125 12.125C21.8367 12.5529 23.0601 13.7947 24.4142 15.1692C26.6202 17.4084 29.1734 20 34.75 20C40.75 20 44.5 17 46 11C43.75 14 41.125 15.125 38.125 14.375C36.4133 13.9471 35.1899 12.7053 33.8357 11.3308C31.6297 9.09158 29.0766 6.5 23.5 6.5ZM12.25 20C6.25 20 2.5 23 1 29C3.25 26 5.875 24.875 8.875 25.625C10.5867 26.0529 11.8101 27.2947 13.1642 28.6693C15.3702 30.9084 17.9234 33.5 23.5 33.5C29.5 33.5 33.25 30.5 34.75 24.5C32.5 27.5 29.875 28.625 26.875 27.875C25.1633 27.4471 23.9399 26.2053 22.5858 24.8307C20.3798 22.5916 17.8266 20 12.25 20Z"/>
+                        <defs>
+                            <linearGradient id="%%GRADIENT_ID%%" x1="33.999" x2="1" y1="16.181" y2="16.181"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="%%GRADIENT_TO%%" />
+                                <stop offset="1" stop-color="%%GRADIENT_FROM%%" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="container grid col-span-2">
+                    <h1 class="font-semibold">Prouducts</h1>
+                    <h1 class="text-slate-500 my-1 mt-5">Bags</h1>
+                    <h1 class="text-slate-500 my-1">Tees</h1>
+                    <h1 class="text-slate-500 my-1">Objects</h1>
+                    <h1 class="text-slate-500 my-1">Home Goods</h1>
+                    <h1 class="text-slate-500 my-1">Accessories</h1>
+                </div>
+                <div class="container grid col-span-2">
+                    <h1 class="font-semibold">Company</h1>
+                    <h1 class="text-slate-500 my-1 mt-5">Who We Are</h1>
+                    <h1 class="text-slate-500 my-1">Sustainability</h1>
+                    <h1 class="text-slate-500 my-1">Press</h1>
+                    <h1 class="text-slate-500 my-1">Careers</h1>
+                    <h1 class="text-slate-500 my-1">Terms & Conditions</h1>
+                    <h1 class="text-slate-500 my-1">Privacy</h1>
+                </div>
+                <div class="container grid col-span-3">
+                    <h1 class="font-semibold">Customer Service</h1>
+                    <h1 class="text-slate-500 my-1 mt-5">Contacts</h1>
+                    <h1 class="text-slate-500 my-1">Shipping</h1>
+                    <h1 class="text-slate-500 my-1">Returns</h1>
+                    <h1 class="text-slate-500 my-1">Warrenty</h1>
+                    <h1 class="text-slate-500 my-1">Secure Payments</h1>
+                    <h1 class="text-slate-500 my-1">FAQ</h1>
+                    <h1 class="text-slate-500 my-1">Find a Store</h1>
+                </div>
+                <div class="container col-span-4">
+                    <h1 class="font-semibold">Sign up for our newsletter</h1>
+                    <h1 class="mt-6 text-slate-500">The latest deals and savings, sent to your inbox weekly.</h1>
+                    <div class="container mt-3 flex">
+                        <input type="text" name="" id="" class="border border-1 border-slate-400 py-2 px-10 rounded-lg">
+                        <Button class="text-white font-semibold rounded-lg bg-indigo-600 py-2 px-5 ml-5">Sign Up</Button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shadow shadow-slate-400 mt-20 rounded-lg">
+            <div class="px-8">
+                <div class="navbar py-5 pb-3 flex justify-between">
+                    <ul class="flex">
+                        <li class="h-10 w-10 mr-5">
+                            <svg viewBox="0 0 47 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#4f46e5" d="M23.5 6.5C17.5 6.5 13.75 9.5 12.25 15.5C14.5 12.5 17.125 11.375 20.125 12.125C21.8367 12.5529 23.0601 13.7947 24.4142 15.1692C26.6202 17.4084 29.1734 20 34.75 20C40.75 20 44.5 17 46 11C43.75 14 41.125 15.125 38.125 14.375C36.4133 13.9471 35.1899 12.7053 33.8357 11.3308C31.6297 9.09158 29.0766 6.5 23.5 6.5ZM12.25 20C6.25 20 2.5 23 1 29C3.25 26 5.875 24.875 8.875 25.625C10.5867 26.0529 11.8101 27.2947 13.1642 28.6693C15.3702 30.9084 17.9234 33.5 23.5 33.5C29.5 33.5 33.25 30.5 34.75 24.5C32.5 27.5 29.875 28.625 26.875 27.875C25.1633 27.4471 23.9399 26.2053 22.5858 24.8307C20.3798 22.5916 17.8266 20 12.25 20Z"/>
+                                <defs>
+                                    <linearGradient id="%%GRADIENT_ID%%" x1="33.999" x2="1" y1="16.181" y2="16.181"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="%%GRADIENT_TO%%" />
+                                        <stop offset="1" stop-color="%%GRADIENT_FROM%%" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </li>
+                        <li class="mr-8 font-medium mt-1">Women</li>
+                        <li class="mr-8 font-medium mt-1">Men</li>
+                        <li class="mr-8 font-medium mt-1">Company</li>
+                        <li class="mr-8 font-medium mt-1">Stores</li>
+                    </ul>
+                    <ul class="flex">
+                        <li class="mr-8">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                            </svg>
+                        </li>
+                        <li class="mr-8">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                            </svg>                          
+                        </li>
+                        <li class="mr-8">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                            </svg>                          
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="mt-10 py-5">
+                    <ul class="flex">
+                        <li class="mx-5 font-semibold">Men</li> \
+                        <li class="mx-5 font-semibold">Clothing</li> \
+                        <li class="ml-5 text-gray-500">Basic-6-Tee-Pack</li>
+                    </ul>
+                </div>
+                <div class="grid mt-3 grid-cols-12 gap-8">
+                    <div class="lg:col-span-4 sm:col-span-8 xs:col-span-12 rounded-xl overflow-hidden">
+                        <img class="h-full object-cover" src="../assets/images/product-page-02-secondary-product-shot.jpg" alt="">
+                    </div>
+                    <div class="lg:col-span-4 sm:col-span-8 xs:col-span-12 rounded-xl overflow-hidden">
+                        <div class="flex flex-col">
+                            <div class="container rounded-xl overflow-hidden mb-3">
+                                <img src="../assets/images/product-page-02-tertiary-product-shot-01.jpg" alt="">
+                            </div>
+                            <div class="container rounded-xl overflow-hidden mt-3">
+                                <img src="../assets/images/product-page-02-tertiary-product-shot-02.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:col-span-4 sm:col-span-8 xs:col-span-12 rounded-xl overflow-hidden">
+                        <img class="h-full object-cover" src="../assets/images/product-page-02-featured-product-shot.jpg" alt="">
+                    </div>
+                </div>
+                <div class="grid grid-cols-12 mt-10 py-5 gap-5">
+                    <div class="col-span-8 pr-5 border-r border-gray-300">
+                        <h1 class="text-4xl font-bold mb-8 ">Basic Tee 8-pack</h1>
+                        <div>
+                            The Basic Tee 6-Pack allows you to fully express your vibrant personality with three grayscale options. Feeling adventurous? Put on a heather gray tee. Want to be a trendsetter? Try our exclusive colorway: "Black". Need to add an extra pop of color to your outfit? Our white tee has you covered.
+                        </div>
+                        <div class="container mt-10">
+                            <h1 class="font-semibold">Highlights</h1>
+                            <ul class="text-slate-500 mt-5">
+                                <li class="ml-5 list-disc my-2">Hand cut and sewn locally</li>
+                                <li class="ml-5 list-disc my-2">Dyed with our proprietory colors</li>
+                                <li class="ml-5 list-disc my-2">Pre-washed & pre-shrunk</li>
+                                <li class="ml-5 list-disc my-2">Ultra soft 100% cotton</li>
+                            </ul>
+                        </div>
+                        <div class="container my-10">
+                            <h1 class="font-semibold">Details</h1>
+                            <p class="mt-3">
+                                The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming "Charcoal Gray" limited release.
+                            </p>
+                        </div>
+                        <hr class="my-10">
+                        <div class="grid grid-cols-12 gap-3">
+                            <div class="col-span-2">
+                                <img src="../assets/logos/photo-1.avif" class="h-12 w-12 rounded-3xl" alt="">
+                                <h1 class="font-semibold mt-2">Mark Edwards</h1>
+                                <div class="container flex align-center inline m-0 p-0 pt-1 pl-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#111827" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#111827" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#111827" viewBox="0 0 24 24"  stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#111827" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#111827" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                        </svg>                                
+                                </div>
+                            </div>
+                            <div class="col-span-10">
+                                <h1 class="font-semibold">This is the best white t-shirt out there</h1>
+                                <p class="text-slate-500">
+                                    I've searched my entire life for a t-shirt that reflects every color in the visible spectrum. Scientists said it couldn't be done, but when I look at this shirt, I see white light bouncing right back into my eyes. Incredible!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mt-10 grid grid-cols-12 gap-3">
+                            <div class="col-span-2">
+                                <img src="../assets/logos/photo-2.avif" class="h-12 w-12 rounded-3xl" alt="">
+                                <h1 class="font-semibold mt-2">Blake Reid</h1>
+                                <div class="container flex align-center inline m-0 p-0 pt-1 pl-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#111827" viewBox="0 0 24 24"  stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#111827" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#111827" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#111827" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#e5e7eb" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                    </svg>                                
+                                </div>
+                            </div>
+                            <div class="col-span-10">
+                                <h1 class="font-semibold">Adds the perfect variety to my wardrobe</h1>
+                                <p class="text-slate-500">
+                                    I used to be one of those unbearable minimalists who only wore the same black v-necks every day. Now, I have expanded my wardrobe with three new crewneck options! Leaving off one star only because I wish the heather gray was more gray.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mt-10 grid grid-cols-12 gap-3">
+                            <div class="col-span-2">
+                                <img src="../assets/logos/photo-3.avif" class="h-12 w-12 rounded-3xl" alt="">
+                                <h1 class="font-semibold mt-2">Ben Russel</h1>
+                                <div class="container flex align-center inline m-0 p-0 pt-1 pl-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#111827" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#111827" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#111827" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#111827" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#111827" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                    </svg>                                
+                                </div>
+                            </div>
+                            <div class="col-span-10">
+                                <h1 class="font-semibold">All good things come in 6-Packs</h1>
+                                <p class="text-slate-500">
+                                    Tasty beverages, strong abs that will never be seen due to aforementioned tasty beverages, and these Basic Tees!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-4">
+                        <h1 class="text-4xl">$192</h1>
+                        <div class="container flex justify-start align-center">
+                            <div class="container flex align-center inline mt-8 w-24 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#111827" viewBox="0 0 24 24"  stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#111827" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#111827" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#111827" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#e5e7eb" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                </svg>                               
+                            </div>
+                            <h1 class="font-semibold text-indigo-600 flex items-end ml-2">117 Reviews</h1>
+                        </div>
+                        <div class="container mt-10">
+                            <h1 class="text-sm font-semibold mb-3">Color</h1>
+                            <div class="flex">
+                                    <div class="h-8 w-8 bg-white border-2 border-slate-400 rounded-3xl outline outline-offset-2 outline-2 outline-slate-500 mr-3"></div>
+                                    <div class="h-8 w-8 bg-gray-500 rounded-3xl mr-3"></div>
+                                    <div class="h-8 w-8 bg-black rounded-3xl"></div>
+                            </div>
+                        </div>
+                        <div class="container mt-10">
+                            <div class="font-semibold flex justify-between">
+                                <h1>Size</h1>
+                                <h1 class="text-indigo-600">Size Guide</h1>
+                            </div>
+                            <div class="sizes mt-3 flex justify-between">
+                                <button class="border-2 border-slate-200 rounded-lg h-20 w-20">XXS</button>
+                                <button class="border-2 border-slate-200 rounded-lg h-20 w-20">XS</button>
+                                <button class="border-2 border-indigo-600 rounded-lg h-20 w-20">S</button>
+                                <button class="border-2 border-slate-200 rounded-lg h-20 w-20">M</button>
+                            </div>
+                            <div class="sizes mt-3 flex justify-between">
+                                <button class="border-2 border-slate-200 rounded-lg h-20 w-20">L</button>
+                                <button class="border-2 border-slate-200 rounded-lg h-20 w-20">XL</button>
+                                <button class="border-2 border-slate-200 rounded-lg h-20 w-20">2XL</button>
+                                <button class="border-2 border-slate-200 rounded-lg h-20 w-20">3XL</button>
+                            </div>
+                            <div class="mt-5">
+                                <button class="bg-indigo-600 text-white font-semibold py-3 w-full rounded-lg">
+                                    Add to bag
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container mt-10 py-5">
+                    <h1 class="font-semibold text-xl">Customers also purchased</h1>
+                    <div class="grid grid-cols-4 gap-8 mt-8">
+                        <div class="container">
+                            <img src="../assets/images/product-page-01-related-product-01.jpg" alt="">
+                            <div class="container flex justify-between">
+                                <div>
+                                    <h1>Basic Tee</h1>
+                                    <h1 class="text-slate-500">Black</h1>
+                                </div>
+                                <div class="font-semibold">
+                                    $35
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <img src="../assets/images/product-page-01-related-product-02.jpg" alt="">
+                            <div class="container flex justify-between">
+                                <div>
+                                    <h1>Basic Tee</h1>
+                                    <h1 class="text-slate-500">Aspen White</h1>
+                                </div>
+                                <div class="font-semibold">
+                                    $35
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <img src="../assets/images/product-page-01-related-product-03.jpg" alt="">
+                            <div class="container flex justify-between">
+                                <div>
+                                    <h1>Basic Tee</h1>
+                                    <h1 class="text-slate-500">Charcoal</h1>
+                                </div>
+                                <div class="font-semibold">
+                                    $35
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <img src="../assets/images/product-page-01-related-product-04.jpg" alt="">
+                            <div class="container flex justify-between">
+                                <div>
+                                    <h1>Artwork Tee</h1>
+                                    <h1 class="text-slate-500">Iso Dots</h1>
+                                </div>
+                                <div class="font-semibold">
+                                    $35
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-20">
+            <div class="container grid grid-cols-12 px-10">
+                <div class="grid col-span-3">
+                    <h1 class="font-semibold">Account</h1>
+                    <h1 class="mt-5 text-gray-400">Manage account</h1>
+                    <h1 class="mt-5 text-gray-400">Saved items</h1>
+                    <h1 class="mt-5 text-gray-400">Orders</h1>
+                    <h1 class="mt-5 text-gray-400">Redeem Gift card</h1>
+                </div>
+                <div class="grid col-span-3">
+                    <h1 class="font-semibold">Service</h1>
+                    <h1 class="mt-5 text-gray-400">Shipping  & returns</h1>
+                    <h1 class="mt-5 text-gray-400">Warrenty</h1>
+                    <h1 class="mt-5 text-gray-400">FAQ</h1>
+                    <h1 class="mt-5 text-gray-400">Find a store</h1>
+                    <h1 class="mt-5 text-gray-400">Get in touch</h1>
+                </div>
+                <div class="grid col-span-3">
+                    <h1 class="font-semibold">Company</h1>
+                    <h1 class="mt-5 text-gray-400">Who we are</h1>
+                    <h1 class="mt-5 text-gray-400">Press</h1>
+                    <h1 class="mt-5 text-gray-400">Careers</h1>
+                    <h1 class="mt-5 text-gray-400">Terms & condition</h1>
+                    <h1 class="mt-5 text-gray-400">Privacy</h1>
+                </div>
+                <div class="grid col-span-3">
+                    <h1 class="font-semibold">Connect</h1>
+                    <h1 class="text-gray-400">Instagram</h1>
+                    <h1 class="text-gray-400">Pintrest</h1>
+                    <h1 class="text-gray-400">Twitter</h1>
+                </div>
+            </div>
+        </div>
+        <div class="shadow shadow-slate-400 mt-20 rounded-lg px-8 py-3">
+            <div class=" py-3 border-grey-800 flex align-center justify-between">
+                <ul class="flex align-center ">
+                    <li class="mr-10">Women</li>
+                    <li class="mr-10">Men</li>
+                    <li class="mr-10">Company</li>
+                    <li class="mr-10">Stores</li>
+                </ul>
+                <div class="h-8 flex m-0 p-0 align-center">
+                    <svg viewBox="0 0 47 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#4f46e5" d="M23.5 6.5C17.5 6.5 13.75 9.5 12.25 15.5C14.5 12.5 17.125 11.375 20.125 12.125C21.8367 12.5529 23.0601 13.7947 24.4142 15.1692C26.6202 17.4084 29.1734 20 34.75 20C40.75 20 44.5 17 46 11C43.75 14 41.125 15.125 38.125 14.375C36.4133 13.9471 35.1899 12.7053 33.8357 11.3308C31.6297 9.09158 29.0766 6.5 23.5 6.5ZM12.25 20C6.25 20 2.5 23 1 29C3.25 26 5.875 24.875 8.875 25.625C10.5867 26.0529 11.8101 27.2947 13.1642 28.6693C15.3702 30.9084 17.9234 33.5 23.5 33.5C29.5 33.5 33.25 30.5 34.75 24.5C32.5 27.5 29.875 28.625 26.875 27.875C25.1633 27.4471 23.9399 26.2053 22.5858 24.8307C20.3798 22.5916 17.8266 20 12.25 20Z"/>
+                        <defs>
+                            <linearGradient id="%%GRADIENT_ID%%" x1="33.999" x2="1" y1="16.181" y2="16.181"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="%%GRADIENT_TO%%" />
+                                <stop offset="1" stop-color="%%GRADIENT_FROM%%" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <ul class="flex align-center">
+                    <li class="mr-10 flex align-center">
+                        <span class="mr-3">
+                            <svg class="mt-1" width="20" height="15" viewBox="0 0 20 15" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 0h10v15H5V0z" fill="#F7FCFF"/>
+                                <path d="M8.956 5.252L9.983 3.75 10 12.5h-.428l.263-2.165s-2.883.529-2.644.262c.238-.267.375-.757.375-.757L5 8.092s.405-.005.734-.205c.33-.2-.33-1.385-.33-1.385l1.296.192.49-.544.978 1.045h.44l-.44-2.393.788.45zM10 12.5V3.75l1.044 1.502.788-.45-.44 2.393h.44l.977-1.045.49.544 1.296-.192s-.658 1.185-.33 1.385c.33.2.735.205.735.205L12.434 9.84s.137.49.376.757c.238.267-2.645-.262-2.645-.262l.263 2.165H10zM15 0h5v15h-5V0zM0 0h5v15H0V0z" fill="#E31D1C"/>
+                            </svg>  
+                        </span>
+                        <span class="font-semibold">
+                            CAD                        
+                        </span>
+                    </li>
+                    <li class="mr-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-slate-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                        </svg>                          
+                    </li>
+                    <li class="mr-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-slate-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                        </svg>
+                    </li>
+                    <li class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-slate-500 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                        </svg>     
+                        0                     
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div class="grid grid-cols-12 mt-10">
+                <div class="grid col-span-6 px-5 m-0 p-0">
+                    <div class="container m-0 p-0">
+                        <img src="../assets/images/product-page-03-product-01.jpg" alt="">
+                    </div>
+                    <div class="grid grid-cols-12">
+                        <div class="grid col-span-3">
+                            <img src="../assets/images/product-page-03-product-01.jpg" alt="">
+                        </div>
+                        <div class="grid col-span-3">
+                            <img src="../assets/images/product-page-03-product-02.jpg" alt="">
+                        </div>
+                        <div class="grid col-span-3">
+                            <img src="../assets/images/product-page-03-product-03.jpg" alt="">
+                        </div>
+                        <div class="grid col-span-3">
+                            <img src="../assets/images/product-page-03-product-04.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="grid col-span-6 px-5">
+                    <div class="container">
+                        <h1 class="text-3xl font-bold">Zip Tote Basket</h1>
+                        <h1 class="text-4xl mt-3">$140</h1>
+                        <div class="container flex mt-3 justify-start">
+                            <div class="container flex align-center inline m-0 p-0 pt-1 pl-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#6366F1" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#6366F1" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#6366F1" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#6366F1" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#e5e7eb" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                </svg>                                
+                            </div>
+                        </div>
+                        <p class="mt-8">
+                            The Zip Tote Basket is the perfect midpoint between shopping tote and comfy backpack. With convertible straps, you can hand carry, should sling, or backpack this convenient and spacious bag. The zip top and durable canvas construction keeps your goods protected for all-day use.
+                        </p>
+                        <div class="container mt-8">
+                            <h1 class="text-sm font-semibold mb-2">Color</h1>
+                            <div class="flex">
+                                    <div class="h-8 w-8 bg-gray-800 rounded-3xl outline outline-offset-2 outline-2 outline-gray-800 mr-3"></div>
+                                    <div class="h-8 w-8 bg-white-500 border-2 border-gray-200 mr-3 rounded-3xl"></div>
+                                    <div class="h-8 w-8 bg-gray-500 rounded-3xl"></div>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-12 my-10 ">
+                            <div class="grid col-span-7">
+                                <button class="bg-indigo-600 py-3 px-5 rounded-lg font-semibold text-white">Add to bag</button>
+                            </div>
+                            <div class="grid col-span-5 flex items-center pl-5 text-gray-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                                  </svg>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="container flex justify-between my-8 items-center">
+                            <h1 class="font-semibold">Features</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                        </div>
+                        <hr>
+                        <div class="container flex justify-between my-8 items-center">
+                            <h1 class="font-semibold">Care</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                        </div>
+                        <hr>
+                        <div class="container flex justify-between my-8 items-center">
+                            <h1 class="font-semibold">Shipping</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                        </div>
+                        <hr>
+                        <div class="container">
+                            <h1 class="text-indigo-600 font-medium mt-5">Returns</h1>
+                            <ul class="pl-5 mt-5">
+                                <li class="list-disc text-gray-500 mt-1">Easy return request</li>
+                                <li class="list-disc text-gray-500 mt-1">Pre-paid shippint label included</li>
+                                <li class="list-disc text-gray-500 mt-1">10% restocking fee for returns</li>
+                                <li class="list-disc text-gray-500 mt-1">60 days return window</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-20">
+            <div class="container mt-20 py-5">
+                <h1 class="font-semibold text-xl">Customers also purchased</h1>
+                <div class="grid grid-cols-4 gap-8 mt-8">
+                    <div class="container">
+                        <img src="../assets/images/product-page-03-related-product-02.jpg" alt="">
+                        <div class="container">
+                            <div>
+                                <h1>Basic Tee</h1>
+                                <h1 class="text-slate-500">Aspen White</h1>
+                            </div>
+                            <div class="container mt-5">
+                                <button class="bg-slate-100 w-full py-2 rounded-md">
+                                    Add to bag
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img src="../assets/images/product-page-03-related-product-03.jpg" alt="">
+                        <div class="container">
+                            <div>
+                                <h1>Basic Tee</h1>
+                                <h1 class="text-slate-500">Charcoal</h1>
+                            </div>
+                            <div class="container mt-5">
+                                <button class="bg-slate-100 w-full py-2 rounded-md">
+                                    Add to bag
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img src="../assets/images/product-page-03-related-product-04.jpg" alt="">
+                        <div class="container">
+                            <div>
+                                <h1>Artwork Tee</h1>
+                                <h1 class="text-slate-500">Iso Dots</h1>
+                            </div>
+                            <div class="container mt-5">
+                                <button class="bg-slate-100 w-full py-2 rounded-md">
+                                    Add to bag
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img src="../assets/images/product-page-03-related-product-01.jpg" alt="">
+                        <div class="container">
+                            <div>
+                                <h1>Basic Tee</h1>
+                                <h1 class="text-slate-500">Black</h1>
+                            </div>
+                            <div class="container mt-5">
+                                <button class="bg-slate-100 w-full py-2 rounded-md">
+                                    Add to bag
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-20">
+            <div class="grid grid-cols-12">
+                <div class="h-10 w-10">
+                    <svg viewBox="0 0 47 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#4f46e5" d="M23.5 6.5C17.5 6.5 13.75 9.5 12.25 15.5C14.5 12.5 17.125 11.375 20.125 12.125C21.8367 12.5529 23.0601 13.7947 24.4142 15.1692C26.6202 17.4084 29.1734 20 34.75 20C40.75 20 44.5 17 46 11C43.75 14 41.125 15.125 38.125 14.375C36.4133 13.9471 35.1899 12.7053 33.8357 11.3308C31.6297 9.09158 29.0766 6.5 23.5 6.5ZM12.25 20C6.25 20 2.5 23 1 29C3.25 26 5.875 24.875 8.875 25.625C10.5867 26.0529 11.8101 27.2947 13.1642 28.6693C15.3702 30.9084 17.9234 33.5 23.5 33.5C29.5 33.5 33.25 30.5 34.75 24.5C32.5 27.5 29.875 28.625 26.875 27.875C25.1633 27.4471 23.9399 26.2053 22.5858 24.8307C20.3798 22.5916 17.8266 20 12.25 20Z"/>
+                        <defs>
+                            <linearGradient id="%%GRADIENT_ID%%" x1="33.999" x2="1" y1="16.181" y2="16.181"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="%%GRADIENT_TO%%" />
+                                <stop offset="1" stop-color="%%GRADIENT_FROM%%" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="container grid col-span-2">
+                    <h1 class="font-semibold">Prouducts</h1>
+                    <h1 class="text-slate-500 my-1 mt-5">Bags</h1>
+                    <h1 class="text-slate-500 my-1">Tees</h1>
+                    <h1 class="text-slate-500 my-1">Objects</h1>
+                    <h1 class="text-slate-500 my-1">Home Goods</h1>
+                    <h1 class="text-slate-500 my-1">Accessories</h1>
+                </div>
+                <div class="container grid col-span-2">
+                    <h1 class="font-semibold">Company</h1>
+                    <h1 class="text-slate-500 my-1 mt-5">Who We Are</h1>
+                    <h1 class="text-slate-500 my-1">Sustainability</h1>
+                    <h1 class="text-slate-500 my-1">Press</h1>
+                    <h1 class="text-slate-500 my-1">Careers</h1>
+                    <h1 class="text-slate-500 my-1">Terms & Conditions</h1>
+                    <h1 class="text-slate-500 my-1">Privacy</h1>
+                </div>
+                <div class="container grid col-span-3">
+                    <h1 class="font-semibold">Customer Service</h1>
+                    <h1 class="text-slate-500 my-1 mt-5">Contacts</h1>
+                    <h1 class="text-slate-500 my-1">Shipping</h1>
+                    <h1 class="text-slate-500 my-1">Returns</h1>
+                    <h1 class="text-slate-500 my-1">Warrenty</h1>
+                    <h1 class="text-slate-500 my-1">Secure Payments</h1>
+                    <h1 class="text-slate-500 my-1">FAQ</h1>
+                    <h1 class="text-slate-500 my-1">Find a Store</h1>
+                </div>
+                <div class="container col-span-4">
+                    <h1 class="font-semibold">Sign up for our newsletter</h1>
+                    <h1 class="mt-6 text-slate-500">The latest deals and savings, sent to your inbox weekly.</h1>
+                    <div class="container mt-3 flex">
+                        <input type="text" name="" id="" class="border border-1 border-slate-400 py-2 px-10 rounded-lg">
+                        <Button class="text-white font-semibold rounded-lg bg-indigo-600 py-2 px-5 ml-5">Sign Up</Button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shadow shadow-slate-400 mt-20 rounded-lg px-8 py-3">
+            <div class=" py-3 border-grey-800 flex align-center justify-between">
+                <ul class="flex align-center ">
+                    <li class="mr-10">Women</li>
+                    <li class="mr-10">Men</li>
+                    <li class="mr-10">Company</li>
+                    <li class="mr-10">Stores</li>
+                </ul>
+                <div class="h-8 flex m-0 p-0 align-center">
+                    <svg viewBox="0 0 47 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#4f46e5" d="M23.5 6.5C17.5 6.5 13.75 9.5 12.25 15.5C14.5 12.5 17.125 11.375 20.125 12.125C21.8367 12.5529 23.0601 13.7947 24.4142 15.1692C26.6202 17.4084 29.1734 20 34.75 20C40.75 20 44.5 17 46 11C43.75 14 41.125 15.125 38.125 14.375C36.4133 13.9471 35.1899 12.7053 33.8357 11.3308C31.6297 9.09158 29.0766 6.5 23.5 6.5ZM12.25 20C6.25 20 2.5 23 1 29C3.25 26 5.875 24.875 8.875 25.625C10.5867 26.0529 11.8101 27.2947 13.1642 28.6693C15.3702 30.9084 17.9234 33.5 23.5 33.5C29.5 33.5 33.25 30.5 34.75 24.5C32.5 27.5 29.875 28.625 26.875 27.875C25.1633 27.4471 23.9399 26.2053 22.5858 24.8307C20.3798 22.5916 17.8266 20 12.25 20Z"/>
+                        <defs>
+                            <linearGradient id="%%GRADIENT_ID%%" x1="33.999" x2="1" y1="16.181" y2="16.181"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="%%GRADIENT_TO%%" />
+                                <stop offset="1" stop-color="%%GRADIENT_FROM%%" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <ul class="flex align-center">
+                    <li class="mr-10 flex align-center">
+                        <span class="mr-3">
+                            <svg class="mt-1" width="20" height="15" viewBox="0 0 20 15" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 0h10v15H5V0z" fill="#F7FCFF"/>
+                                <path d="M8.956 5.252L9.983 3.75 10 12.5h-.428l.263-2.165s-2.883.529-2.644.262c.238-.267.375-.757.375-.757L5 8.092s.405-.005.734-.205c.33-.2-.33-1.385-.33-1.385l1.296.192.49-.544.978 1.045h.44l-.44-2.393.788.45zM10 12.5V3.75l1.044 1.502.788-.45-.44 2.393h.44l.977-1.045.49.544 1.296-.192s-.658 1.185-.33 1.385c.33.2.735.205.735.205L12.434 9.84s.137.49.376.757c.238.267-2.645-.262-2.645-.262l.263 2.165H10zM15 0h5v15h-5V0zM0 0h5v15H0V0z" fill="#E31D1C"/>
+                            </svg>  
+                        </span>
+                        <span class="font-semibold">
+                            CAD                        
+                        </span>
+                    </li>
+                    <li class="mr-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-slate-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                        </svg>                          
+                    </li>
+                    <li class="mr-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-slate-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                        </svg>
+                    </li>
+                    <li class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-slate-500 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                        </svg>     
+                        0                     
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div class="container mt-20">
+                <div class="grid grid-cols-12">
+                    <div class="grid col-span-6 pr-20">
+                        <div class="container">
+                            <div class="container flex text-gray-600 font-medium">
+                                <h1 class="mr-2">Travel</h1> / <h1 class="ml-2">Bags</h1>
+                            </div>
+                                <h1 class="text-3xl font-bold mt-3">Everyday Ruck Snack</h1>
+                            <div class="container flex mt-5 items-center ">
+                                <h1 class="text-2xl border-r-2 pr-3 border-slate-400">$220</h1>
+                                <div class="container flex m-3">
+                                    <div class="flex align-center mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                        </svg>
+                                      <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                      </svg>
+                                      <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#facc15" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#e5e7eb" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                        </svg>                                
+                                    </div>
+                                    <div class="text-gray-400 text-sm">
+                                        1624 reviews
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-5">
+                                Don't compromise on snack-carrying capacity with this lightweight and spacious bag. The drawstring top keeps all your favorite chips, crisps, fries, biscuits, crackers, and cookies secure.
+                            </div>
+                            <div class="flex my-5">
+                                <div class="text-green-300 mr-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                                    </svg>
+                                </div>
+                                <div class="text-gray-500">
+                                    In stock and ready to ship
+                                </div>                                  
+                            </div>
+                            <div class="container">
+                                <h1 class="text-md font-semibold">Size</h1>
+                                <div class="grid grid-cols-12 gap-8 mt-2">
+                                    <div class="grid col-span-6 border-2 border-indigo-800 rounded-md p-3">
+                                        <h1 class="font-semibold">18L</h1>
+                                        <p class="pr-10 text-gray-500">Perfect for a reasonable amount of snacks.</p>
+                                    </div>
+                                    <div class="grid col-span-6 border-2 border-gray-300 rounded-md p-3">
+                                        <h1 class="font-semibold">18L</h1>
+                                        <p class="pr-10 text-gray-500">Enough room for a serious amount of snacks.</p>
+                                    </div>
+                                </div>
+                                <div class="mt-5 text-gray-500 flex">
+                                    <span class="mr-2">
+                                    What size should I buy?
+                                    </span>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#9CA3AF" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+                                        </svg>
+                                    </span>
+                                </div>
+                            
+                                <div class="container mt-10">
+                                    <button class="py-2 w-full rounded-md text-white font-semibold bg-indigo-600">
+                                        Add to bag
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid col-span-6">
+                        <img src="../assets/images/product-page-04-featured-product-shot.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
