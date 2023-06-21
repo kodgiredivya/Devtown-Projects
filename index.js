@@ -1,6 +1,8 @@
 const search = async () => {
   const name = document.querySelector("#inp").value;
+  document.querySelector("#output").innerHTML = '';
   let str = "";
+  let err="";
   const weather = await fetch(
     `https://api.openweathermap.org/data/2.5/weather?q=${name}&appid=d33519434c63e2f0f6cd439f42daf3f5`
   )
@@ -9,6 +11,14 @@ const search = async () => {
     })
     .then((data) => data);
   console.log("this is weather", weather);
+  if(!weather.main){
+    err+=`<p class="text-danger">Invalid City Name</p>`
+    document.getElementById('inp').classList.add('is-invalid')
+    document.getElementById('error').innerHTML=err
+  }else {
+    document.getElementById('inp').classList.remove('is-invalid')
+    document.getElementById('error').innerHTML=err
+  }
 
   str += `  <div class="card w-25 mx-auto">
             <div class="card-header bg-info text-light text-center">

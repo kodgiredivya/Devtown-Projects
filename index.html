@@ -15,13 +15,14 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
+
     <style>
         .title{
             font-size: 12px !important;
         }
-        #inp{
+        /* #inp{
           border: 3px solid black;
-        }
+        } */
     </style>
   </head>
   <body>
@@ -41,16 +42,17 @@
         </div>
         <div class="container w-25">
           <button
-          style=" border: 5px solid black;"
             onclick="search()"
             id="btn"
             type="button"
-            class="btn border-3 border-dark"
+            class="btn border-1 border-dark"
           >
             <i class="bi bi-search"></i>
           </button>
         </div>
       </div>
+      <div id="error" class="w-75 mx-auto pt-2 px-4"></div>
+    
       <div id="output" class="my-5">
         </div>
       </div>
